@@ -1,14 +1,15 @@
 # QML Phases Classification with SHAP
+[![arXiv](https://img.shields.io/badge/arXiv-2408.00544-b31b1b.svg)]([https://arxiv.org/abs/2408.00544](https://arxiv.org/abs/2504.10673)) 
 
-This repository contains the data and notebooks used in the study of phase classification in the ANNNI model with quantum machine learning techniques and SHAP explainability. The results are discussed in our [paper on arXiv](https://arxiv.org/abs/2504.10673).
+This repository contains the data and notebooks used in the study of phase classification in the ANNNI model with quantum machine learning techniques and SHAP for feature selection. The results are discussed in our [paper on arXiv](https://arxiv.org/abs/2504.10673).
 
 ## Repository structure
 
 ### Code notebooks
 - `data_generation.ipynb` – Generates the datasets by computing observables of the ANNNI model.
 - `QSVM_code.ipynb` – Quantum Support Vector Machine implementation for the phase classification task.
-- ` VQC_code.ipynb` – Variational Quantum Classifier used to compare with QSVM.
-- `calculate_precision.ipynb` – Calculates accuracy and other metrics over different feature selections.
+- ` VQC_code.ipynb` – Variational Quantum Classifier implementation for the phase classification task.
+- `calculate_precision.ipynb` – Calculates accuracy of the models, based on the theoretical phase transitions.
 - `plots.ipynb` – Contains scripts used to build the figures presented in the paper.
 
 ### Data files
